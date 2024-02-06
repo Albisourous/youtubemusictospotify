@@ -1,2 +1,21 @@
+Transfer Liked Youtube Music Songs to Spotify
+
 This is a set of scripts that can be used to convert youtube music files to spotify music.
 
+Why is this needed?
+
+I made this tool because I wanted to convert my liked music on youtube to spotify.
+The exsisting tools did not work for this use case since this require a specific playlist url.
+I wanted to convert my liked music on youtube, which a genericURL "https://music.youtube.com/playlist?list=LM",
+to spotify by adding all of these songs to my likes not a specific playlist.
+This would not work in the exsisting tools, so I made my own workaround.
+
+
+There are a few steps to this process.
+
+1. Open liked music on Youtube Music "https://music.youtube.com/playlist?list=LM"
+2. Scroll down to bottom of page on liked playlist, if you do not do this it will only give you the songs that are
+present on the page.
+3. Open inspect element on Youtube Music page and swap over to the console
+4. Run the script in <extractFromYTMusic class="js"></extractFromYTMusic>, you should get a txt file called
+playlist_output.txt

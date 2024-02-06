@@ -19,3 +19,5 @@ present on the page.
 3. Open inspect element on Youtube Music page and swap over to the console
 4. Run the script in extractFromYTMusic.js, you should get a txt file called
 playlist_output.txt
+5. Run `pip install spotipy --upgrade` to install spotipy tool https://spotipy.readthedocs.io/en/2.22.1/#installation
+6.
